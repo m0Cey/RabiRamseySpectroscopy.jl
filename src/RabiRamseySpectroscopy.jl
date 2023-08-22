@@ -4,7 +4,7 @@ module RabiRamseySpectroscopy
 export StateVector, PerturbEvol, FreeEvol
 include("structs.jl")
 
-export pump, pump!, wait, wait!, probe
+export pump, pump!, rest, rest!, probe
 include("methods.jl")
 
 

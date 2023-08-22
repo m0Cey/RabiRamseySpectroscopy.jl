@@ -58,7 +58,7 @@ end
 
 
 """
-    wait!(self::StateVector, duration::FreeEvol) -> StateVector
+    rest!(self::StateVector, duration::FreeEvol) -> StateVector
 
 Transform the state of a quantum system according to system's evolution in
 a presence of no perturbations.
@@ -80,14 +80,14 @@ a presence of no perturbations.
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
 """
-function wait!(self::StateVector, duration::FreeEvol)
+function rest!(self::StateVector, duration::FreeEvol)
     local Ψ⃗ = self.state
     local V̂ = duration.operator
     self.state = V̂ * Ψ⃗
     return self
 end
 """
-    wait(state_vector::StateVector, duration::FreeEvol) -> StateVector
+    rest(state_vector::StateVector, duration::FreeEvol) -> StateVector
 
 Transform the state of a quantum system according to system's evolution in
 a presence of no perturbations.
@@ -109,7 +109,7 @@ a presence of no perturbations.
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
 """
-function wait(state_vector::StateVector, duration::FreeEvol)
+function rest(state_vector::StateVector, duration::FreeEvol)
     local Ψ⃗ = state_vector.state
     local V̂ = duration.operator
     return StateVector(V̂ * Ψ⃗)
