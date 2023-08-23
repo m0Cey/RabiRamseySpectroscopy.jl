@@ -1,4 +1,4 @@
-module RabiRamseySpectroscopy
+module RamseySpectroscopyCore
 
 
 export StateVector, PerturbEvol, FreeEvol

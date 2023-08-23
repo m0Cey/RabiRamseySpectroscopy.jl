@@ -71,6 +71,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using RabiRamseySpectroscopy
-            DocMeta.setdocmeta!(RabiRamseySpectroscopy, :DocTestSetup, :(using RabiRamseySpectroscopy); recursive=true)
-            doctest(RabiRamseySpectroscopy)'
+            using RamseySpectroscopyCore
+            DocMeta.setdocmeta!(RamseySpectroscopyCore, :DocTestSetup, :(using RamseySpectroscopyCore); recursive=true)
+            doctest(RamseySpectroscopyCore)'

@@ -1,16 +1,16 @@
-using RabiRamseySpectroscopy
+using RamseySpectroscopyCore
 using Documenter
 
-DocMeta.setdocmeta!(RabiRamseySpectroscopy, :DocTestSetup, :(using RabiRamseySpectroscopy); recursive=true)
+DocMeta.setdocmeta!(RamseySpectroscopyCore, :DocTestSetup, :(using RamseySpectroscopyCore); recursive=true)
 
 makedocs(;
-    modules=[RabiRamseySpectroscopy],
+    modules=[RamseySpectroscopyCore],
     authors="Maksim Radchenko",
-    repo="https://github.com/m0Cey/RabiRamseySpectroscopy.jl/blob/{commit}{path}#{line}",
-    sitename="RabiRamseySpectroscopy.jl",
+    repo="https://github.com/m0Cey/RamseySpectroscopyCore.jl/blob/{commit}{path}#{line}",
+    sitename="RamseySpectroscopyCore.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://m0Cey.github.io/RabiRamseySpectroscopy.jl",
+        canonical="https://m0Cey.github.io/RamseySpectroscopyCore.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/m0Cey/RabiRamseySpectroscopy.jl",
+    repo="github.com/m0Cey/RamseySpectroscopyCore.jl",
     devbranch="main",
 )
