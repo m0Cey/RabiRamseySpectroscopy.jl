@@ -66,7 +66,7 @@ in a presence of some perturbation field.
     Composite type instance.
 
 # See also
-* `StateVector`
+* [`StateVector`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Two-state_quantum_system
@@ -106,7 +106,7 @@ phase difference between `|e>` and `|g>` states.
     Composite type instance.
 
 # See also
-* `StateVector`
+* [`StateVector`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Two-state_quantum_system

@@ -15,8 +15,8 @@ a presence of the laser pulse.
     Composite type instance with transformed `state` object.
 
 # See also
-* RabiRamseySpectroscopy.StateVector
-* RabiRamseySpectroscopy.PerturbEvol
+* [`StateVector`](@ref)
+* [`PerturbEvol`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
@@ -44,8 +44,8 @@ a presence of the laser pulse.
     Composite type instance with transformed `state` object.
 
 # See also
-* RabiRamseySpectroscopy.StateVector
-* RabiRamseySpectroscopy.PerturbEvol
+* [`StateVector`](@ref)
+* [`PerturbEvol`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
@@ -74,8 +74,8 @@ a presence of no perturbations.
     Composite type instance with transformed `state` object.
 
 # See also
-* RabiRamseySpectroscopy.StateVector
-* RabiRamseySpectroscopy.FreeEvol
+* [`StateVector`](@ref)
+* [`FreeEvol`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
@@ -103,8 +103,8 @@ a presence of no perturbations.
     Composite type instance with transformed `state` object.
 
 # See also
-* RabiRamseySpectroscopy.StateVector
-* RabiRamseySpectroscopy.FreeEvol
+* [`StateVector`](@ref)
+* [`FreeEvol`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
@@ -131,7 +131,7 @@ excited state and can be interpret as population of excited state.
     Real number.
 
 # See also
-* RabiRamseySpectroscopy.StateVector
+* [`StateVector`](@ref)
 
 # References
 * Wikipedia: https://en.wikipedia.org/wiki/Ramsey_interferometry
