@@ -1,6 +1,7 @@
 # RamseySpectroscopyCore.jl
 
 (This section is WIP)
+
 RamseySpectroscopyCore.jl provides core toolset for simulating Rabi/Ramsey spectroscopy experiments.
 The main goal is to have ready-to-use, simple-to-understand modeling toolkit with experimenters in mind.
 Furthermore, it can be used as introduction to spectroscopy for people with little physics background or
@@ -23,14 +24,11 @@ Lets start by creating our experement setup:
 
 1. Gas cell or a single atom - research object;
 
-```julia
-julia> using RamseySpectroscopyCore
-julia> atom = StateVector(0, 1)
-```
-
 2. Tunable laser - research instrument.
 
 ```julia
+julia> using RabiRamseySpectroscopy
+julia> atom = StateVector(0, 1)
 julia> laser = PerturbEvol(0, 3.14, 1)
 ```
 
@@ -55,6 +53,7 @@ Congrats, you performed your first spectroscopy experement in Julia!
 ## Development
 
 (This section is WIP)
+
 If you want to help develop this package, you can do it via GitHub default instruments(pull requests,
 issues etc.) and/or contact me: sciencefloppa@gmail.com. In additon, it is highly recommended to read or
 modify code of RamseySpectroscopyCore.jl with JuliaMono font installed. That way UTF-8 symbols will be
