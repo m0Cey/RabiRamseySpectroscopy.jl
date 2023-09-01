@@ -5,7 +5,7 @@ on:
       - main
     tags: ['*']
   pull_request:
-        - main
+      - main
     tags: ['*']
 concurrency:
   # Skip intermediate builds: always.
