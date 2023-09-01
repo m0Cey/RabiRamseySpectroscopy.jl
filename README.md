@@ -52,7 +52,7 @@ julia> probe(atom)
 0.9999
 ```
 We'll get some value approximately close to 1 which means that laser frequency is resonant with
-transition frequency of an atom. 
+transition frequency of an atom.
 
 Congrats, you performed your first spectroscopy experement in Julia!
 
@@ -61,7 +61,7 @@ Congrats, you performed your first spectroscopy experement in Julia!
 (This section is WIP)
 
 If you want to help develop this package, you can do it via GitHub default instruments (pull requests,
-issues etc.) and/or contact me: sciencefloppa@gmail.com. 
+issues etc.) and/or contact me: sciencefloppa@gmail.com.
 
 In additon, it is highly recommended to read or
 modify code of RamseySpectroscopyCore.jl with JuliaMono font installed. That way UTF-8 symbols will be

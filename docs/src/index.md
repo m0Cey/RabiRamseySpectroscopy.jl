@@ -46,7 +46,7 @@ julia> probe(atom)
 0.9999
 ```
 We'll get some value approximately close to 1, which means that laser frequency is resonant with
-transition frequency of an atom. 
+transition frequency of an atom.
 
 Congrats, you performed your first spectroscopy experement in Julia!
 
