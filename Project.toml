@@ -1,7 +1,7 @@
 name = "RamseySpectroscopyCore"
 uuid = "c2a93995-efaf-4fb2-b3df-3b08479f64e0"
 authors = ["Maksim Radchenko"]
-version = "1.0.1"
+version = "1.0.2"
 
 [compat]
 julia = "1.7"
